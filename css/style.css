@@ -268,7 +268,7 @@ h1{
         padding-left: 0px;
     }
     h1{
-        font-size: 64px;
+        font-size: 57px;
         font-weight: 500;
         line-height: 76px;
         margin-bottom: 18px;
@@ -291,3 +291,18 @@ h1{
         transition: .2s;
     }
 }
+
+@media(max-width:1200px){
+    .cards__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 35px;
+    }
+}
+@media(max-width:500px){
+    .cards__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        gap: 30px;
+    }
+}   
